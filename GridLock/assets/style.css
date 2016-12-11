@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	cursor: none ;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    margin: 0;
+}
+
+
+#loader {
+  border: 16px solid black; /* BLACK */
+  border-top: 16px solid white; /* WHITE S / 0 M O N O H R O ME */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin:auto;
+  margin-top:250px;
+}
+#loader-tag{
+  margin-top:20px;
+  font-size:18px;
+  text-align:center;
+  font-family: 'Share Tech Mono', monospace;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
